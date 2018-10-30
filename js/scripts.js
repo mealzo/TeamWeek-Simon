@@ -6,9 +6,15 @@ var yellowButton = 4;
 
 ///array of user presses
 var userArray = [];
+
+
+//player turn function
+var playerTurn = function(){
+
+}
 //function to clear userArray
 var clear = function(){
-
+  userArray.splice(0, userArray.length);
 }
 
 //how many times each button is clicked
@@ -19,6 +25,7 @@ var yellowPress = 0;
 
 
 $(document).ready(function(){
+  //red user click
   $("#red").click(function(){
     userArray.push(redButton);
      redPress += 1;
@@ -44,5 +51,5 @@ $(document).ready(function(){
      //console.log(yellowPress);
 
   });
- 
+
 });
