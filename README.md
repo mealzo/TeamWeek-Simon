@@ -11,6 +11,10 @@ This is a web application that mimics the classic memory game Simon. It generate
   * **Example Input:** start
   * **Example Output:** blue, blue, yellow, red
 
+* It can compare the generated sequence to user input.
+
+* It stops round after a certain number of clicks (+1 each round).
+
 
 ## Setup/Installation Requirements
 
